@@ -1,0 +1,71 @@
+body {
+    direction: ltr !important;
+    text-align: left !important;
+}
+
+.expertise {
+    left: unset;
+    right: 0;
+}
+
+.containerAboutAcademygallery::before {
+    left: unset;
+    right: 0;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: unset;
+}
+
+.containerAboutAcademygallery::after {
+    left: unset;
+    right: 0;
+}
+
+.input-icon-end {
+    left: unset;
+    right: 10px;
+}
+
+.dropdown-toggle.lang {
+    flex-direction: row;
+}
+/* ///// بتبوظ ال modal */
+/* .show {
+    transform: rotate(180deg);
+} */
+
+
+.line-before::before {
+    left: unset;
+    right: 0;
+
+}
+
+
+@media (max-width: 991px){
+    .vision {
+        right: 10px;
+        left: unset;
+    }
+}
+.rotateX {
+    transform: unset 
+}
+.input-icon-search {
+    left: unset;
+    right: 25px;
+}
+.elecServices::before {
+    right: unset;
+    left: 0;
+}
+.input-icon {
+    right: unset;
+    left: 10px;
+   
+}
+.fa-angles-left{
+    transform: rotate(180deg);
+}
+.card-body .m-end-10{
+    margin-inline-start: 10px;
+}

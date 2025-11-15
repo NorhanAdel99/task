@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <!-- meta  -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- // bootstrab // -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- owl-carousel -->
+    <link rel="stylesheet" href="css/fancyApp.css">
+    <!-- // fontawesome // -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- //animate -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- // css // -->
+    <link rel="stylesheet" href="css/shared.css">
+
+    <link rel="stylesheet" href="css/main_b.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>home b </title>
+
+</head>
+
+<body>
+    <!-- ________________  --------------- Header ---------------  ________________ -->
+    <header class="main">
+        <div class="container">
+            <div class="header_content p-3">
+                <div class=" flex_between gap-25 ">
+                    <a href="index.html" class="d-block"><img src="imgs/logo.svg" alt="logo" class="logo"></a>
+                    <ul class="navbar">
+                        <li class=""><a href="#"> عن بتور </a></li>
+                        <li><a href="#"> البرامج </a></li>
+                        <li><a href="#"> العناية بالاطراف الصناعية </a></li>
+                        <li><a href="#"> من نحن </a></li>
+                        <li><a href="#"> المقالات </a></li>
+                        <li><a href="#"> المركز الاعلامي </a></li>
+
+                    </ul>
+                    <div class="flex_between gap-25 ">
+
+                        <a href="#" class="d-block">
+                            <img src="imgs/cart.svg" alt="" class="img_icon">
+                        </a>
+                        <button class="main_btn sm" @click="handleLogin" type="button">
+                            تسجيل الدخول
+                        </button>
+                        <div class=" main_menu burger-icon  wh-color ">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ---------------------- ^^ body-content ^^ ---------------------- -->
+    <div class="body-content">
+        <!-- ---------------------- ^^ main ^^ ---------------------- -->
+        <section class="hero  bg-dark-blue main_section res_sec  justify-content-center">
+            <img src="imgs/image18.svg" class="hero-img " alt="">
+
+            <div class="container">
+
+                <div class="row align-items-center">
+                    <div class="col-lg-5 text-end ">
+                        <a data-fancybox data-width="640" data-height="360" href="imgs/video.mp4"
+                            class="play_video main">
+                            <img src="imgs/arrow-right.svg" alt="arrow" class="play_video_icon">
+                        </a>
+                        <h6 class="text-light-pur  AmiriFone_font mb-lg-5 mb-3 main_color">طريقك إلى التنقل</h6>
+
+                        <h1 class="mb-lg-5 mb-3  main_title text-white">
+                            الرائدة في مجال توفير <br> الرعاية التعويضية
+                        </h1>
+
+                        <p class="main_desc mb-lg-5 mb-3  text-white"">
+                            بفضل فريقنا من الخبراء المتفانين وأحدث التقنيات،
+                            نحن هنا لمساعدتك على استعادة استقلاليتك وإعادة
+                             اكتشاف قدراتك.
+                        </p>
+        
+                        <button class=" btn main_btn md px-5 py-2 mb-lg-5 mb-3 ">
+                            اكتشف
+                        </button>
+        
+                    </div>
+                   
+                </div>
+                  <!-- الإحصائيات -->
+                  <div class=" row text-white stats-row">
+                        <div class="col-lg-2 col-4 mb-lg-0 mb-3">
+                            <h2 class="lg_num text-center mb-2">98%</h2>
+                            <p class="text-white-50 small text-center">راحة الجهاز</p>
+                        </div>
+                        <div class="col-lg-2 col-4 mb-lg-0 mb-3">
+                            <h2 class="lg_num text-center mb-2">1.5k+</h2>
+                            <p class="text-white-50 small  text-center"">قصص النجاح</p>
+                        </div>
+                        <div class=" col-lg-2 col-4 b-lg-0 mb-3">
+                            <h2 class="lg_num text-center mb-2">95%</h2>
+                            <p class="text-white-50 small text-center">النجاح المناسب</p>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="hero_card  ">
+                                <div class="hero_card_content p-3">
+                                    <div class="hero_circle_img bg_main">
+                                        <img src="imgs/prosthetic.svg" alt="">
+                                    </div>
+                                    <h5 class="text-white">رعاية شخصية</h5>
+                                    <p class="text-white-50 small mb-1">
+                                        نحن ندرك أن كل فرد فريد من نوعه،
+                                        وكذلك احتياجاته
+                                    </p>
+                                    <a href="#" class=" main_color_hover small d-flex align-items-center gap-2">
+                                        <span>
+                                            اكتشف
+                                        </span>
+                                        <i class="fas fa-chevron-left ps-5"></i>
+                                    </a>
+                                </div>
+                                <div class="hero_card_content">
+                                    <img src="imgs/Rectangle73.svg" class="hero_card_img" alt="">
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+        </section>
+
+
+
+        <!-- ---------------------- ^^ about ^^ ---------------------- -->
+        <section class="s_space">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-md-6">
+                        <div class="content">
+                            <h5 class="about_sub_title text-end mb-md-4 mb-3">
+                                رعاية الاشخاص ذو الاطراف الصناعية
+                            </h5>
+                            <h3 class="main_title ">
+                                ارفع قدرتك على الحركة:
+                            </h3>
+                            <h3 class="main_title mb-md-4 mb-3">
+                                منصة بتور
+                            </h3>
+                            <p class="content_p secondary_color ps-5 mb-md-4 mb-3 res_desc">
+                                بفضل فريقنا من الخبراء المتفانين وأحدث التقنيات،
+                                نحن هنا لمساعدتك على استعادة استقلاليتك وإعادة
+                                اكتشاف قدراتك.
+                            </p>
+                        </div>
+                        <div class="preview mb-md-4 mb-3">
+                            <img src="imgs/image_19.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="preview mb-md-4 mb-3">
+                            <img src="imgs/image_21.svg" alt="">
+                        </div>
+                        <p class=" secondary_color ps-5 content_p res_desc">
+                            بفضل فريقنا من الخبراء المتفانين وأحدث التقنيات،
+                            نحن هنا لمساعدتك على استعادة استقلاليتك وإعادة
+                            اكتشاف قدراتك.
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ---------------------- ^^ program ^^ ---------------------- -->
+        <section class=" bg_main_light p_space">
+            <div class="container">
+                <h5 class="about_sub_title mb-md-4 mb-3">
+                    رعاية الحالة النفسية لمستخدمي الاطراف الصناعية
+                </h5>
+                <h3 class="about_main_title lg  mx-auto mb-md-4 mb-3">
+                    الحصول على الدعم النفسي
+                    من منصة بتور
+                </h3>
+                <p class="secondary_color  res_desc mb-md-4 mb-3">
+                    التحدث مع الطبيب المعالج قبل تركيب الطرف الصناعي يعزز الحالة النفسية للمريض، ويمده بالقوة اللازمة
+                    لمواصلة حياته الجديدة والتغلب على الصراعات النفسية والمخاوف الداخلية، لأن الطبيب سيقوم بشرح الكثير
+                    من المعلومات عن الأطراف الصناعية للمريض، وسوف يتمكن المريض من طرح الأسئلة المبهمة التي ترهقه وتسبب
+                    له المخاوف من الأطراف الصناعية.
+                </p>
+                <div class="contain_panner">
+                    <img src="imgs/panner.png" alt="planner" class="panner" />
+                    <a data-fancybox data-width="640" data-height="360" href="imgs/video.mp4" class="play_video">
+                        <img src="imgs/arrow-right.svg" alt="arrow" class="play_video_icon">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ---------------------- ^^ discover ^^ ---------------------- -->
+
+        <!-- ---------------------- ^^ coupon ^^ ---------------------- -->
+        <section class=" light_main p_space contain_img_end">
+            <h5 class="about_sub_title ">
+                امنح هدية الصحة: ​​تبرع الي مبتوري الاطراف
+            </h5>
+            <h3 class="about_main_title lg">
+                تحويل الحياة: دعم الصحة النفسية لمبتوري الاطراف مع تبرعك
+            </h3>
+            <button class="btn main_btn xlg">
+                تبرع الان
+            </button>
+        </section>
+        <!-- ________________ // fixed_btn // ________________ -->
+
+    </div>
+    <!-- ________________ // footer // ________________ -->
+    <footer>
+        <div class="container">
+            <div class="py-4">
+                <div class="row align-items-baseline justify-content-between ">
+                    <div class="col-lg-4 col-md-6">
+                        <img class=" mb-4" src="imgs/f_logo.svg" alt="">
+                        <p class="footer_desc mb-4">
+                            جمعية رسمية صحية متخصصة بمبتوري الأطراف وتقدم لهم خدمات تساعدهم على مواجهة التحديات
+                            والصعوبات وتساهم في تحسين جودة حياتهم، وتمكين قدراتهم الذاتية في خدمة أنفسهم وأسرهم دون
+                            الحاجة لمساعة الآخرين
+                        </p>
+                        <div class="d-flex gap-20 align-items-center justify-content-start mb-lg-0 mb-3 mb-4">
+
+                            <a href="#" class="socialLink">
+                                <img src="imgs/Pintrest.svg" alt="" class="img_icon">
+                            </a>
+                            <a href="#" class=" socialLink">
+                                <img src="imgs/whatsapp.svg" alt="" class="img_icon">
+                            </a>
+                            <a href="#" class="socialLink">
+                                <img src="imgs/facebook.svg" alt="" class="img_icon">
+                            </a>
+                            <a href="#" class="socialLink">
+                                <img src="imgs/w.svg" alt="" class="img_icon">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2  col-4">
+                        <ul class="d-flex align-items-start gap-20 flex-column mb-lg-0 mb-3 mb-4">
+                            <li>
+                                <h3 class="footer_link link_sub_title">المميزات</h3>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer_link">عن بتور</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer_link">البرامج</a>
+
+                            </li>
+                            <li>
+                                <a href="#" class="footer_link"> العناية بالاطراف الصناعية</a>
+
+                            </li>
+                            <li>
+                                <a href="#" class="footer_link">المركز الاعلامي </a>
+
+                            </li>
+
+
+
+                        </ul>
+                    </div>
+                    <div class="col-lg-2  col-6">
+                        <ul class="d-flex align-items-start gap-20 flex-column mb-lg-0 mb-3 mb-4">
+
+                            <li>
+                                <h3 class="footer_link link_sub_title">عن الشركة</h3>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer_link"> الاسئلة الشائعة</a>
+
+                            </li>
+                            <li>
+                                <a href="#" class="footer_link">من نحن</a>
+
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer_link">تواصل معنا </a>
+
+                            </li>
+
+
+                        </ul>
+                    </div>
+                    <div class="col-lg-2  col-6">
+                        <ul class="d-flex align-items-start gap-20 flex-column ">
+                            <li>
+                                <h3 class="footer_link link_sub_title"> تواصل معنا</h3>
+                            </li>
+
+                            <li>
+                                <div class="s_tile mb-2">
+                                    العنوان
+                                </div>
+                                <a href="#" class="footer_link"> الرياض - حي المروج</a>
+
+                            </li>
+                            <li>
+                                <div class="s_tile mb-2">
+                                    البريد الالكتروني
+                                </div>
+                                <a href="mailto:joebloggs@gmail.com" class="footer_link"> APP@Gmail.com </a>
+
+                            </li>
+                            <li>
+                                <div class="s_tile mb-2">
+                                    للاستشارات
+                                </div>
+                                <a href="tel:+1234567890" class="footer_link">
+                                    (+966) 8896-2220
+                                </a>
+
+
+                            </li>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr />
+            <div
+                class="py-4 text-white d-flex flex-wrap gap-3 align-items-center  justify-content-md-between justify-content-center">
+                <div>
+                    © 2024 APP. جميع الحقوق محفوظة
+                </div>
+                <div class="d-flex align-items-center gap-10">
+                    <a href="#" class="text-white">
+                        سياسة الخصوصية
+                    </a>
+                    <a href="#" class="text-white">
+                        الشروط والاحكام
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- ---------------------- ^^ loader ^^ ---------------------- -->
+    <div class="loader">
+        <img src="imgs/f_logo.svg" alt="" class="logoWhite  animate__animated animate__jackInTheBox">
+    </div>
+    <!-- _______________ // end_Page // _______________ -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/wow.min.js"></script>
+    <script src="js/fancyApp.js"></script>
+    <script src="js/script.js"></script>
+    <!-- // JavaScript and Scripts // -->
+
+    <script>
+        Fancybox.bind("[data-fancybox]");
+        // //////////////////////  ///////////////////////
+    </script>
+</body>
+
+</html>

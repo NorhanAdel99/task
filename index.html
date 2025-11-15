@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <!-- meta  -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- // bootstrab // -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- owl-carousel -->
+    <link rel="stylesheet" href="css/fancyApp.css">
+    <!-- // fontawesome // -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- //animate -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- // css // -->
+    <link rel="stylesheet" href="css/shared.css">
+
+    <link rel="stylesheet" href="css/main.css">
+    <title>home </title>
+</head>
+
+<body>
+    <!-- ________________  --------------- Header ---------------  ________________ -->
+    <header class="main">
+        <div class="container">
+            <div class="header_content p-3">
+                <div class=" flex_between gap-25 ">
+                    <a href="index.html" class="d-block"><img src="imgs/logo.svg" alt="logo" class="logo"></a>
+                    <ul class="navbar">
+                        <li class=""><a href="#"> عن بتور </a></li>
+                        <li><a href="#"> البرامج </a></li>
+                        <li><a href="#"> العناية بالاطراف الصناعية </a></li>
+                        <li><a href="#"> من نحن </a></li>
+                        <li><a href="#"> المقالات </a></li>
+                        <li><a href="#"> المركز الاعلامي </a></li>
+
+                    </ul>
+                    <div class="flex_between gap-25 ">
+
+                        <a href="#" class="d-block">
+                            <img src="imgs/cart.svg" alt="" class="img_icon">
+                        </a>
+                        <button class="main_btn sm" @click="handleLogin" type="button">
+                            تسجيل الدخول
+                        </button>
+                        <div class=" main_menu burger-icon  wh-color ">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ---------------------- ^^ body-content ^^ ---------------------- -->
+    <div class="body-content">
+        <!-- ---------------------- ^^ main ^^ ---------------------- -->
+        <section class="main_section ">
+            <img src="imgs/hand.png" alt="" class="right_hand">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <h1 class="main_title mb-4">
+                            تقديم الرعاية الصحية لمستخدمي الاطراف الصناعية من الأطفال والشباب
+                        </h1>
+                        <p class="main_desc mb-4">
+                            من خلال مبادرات الرعاية الصحية الخيرية لدينا، نقدم الخدمات الطبية
+                            الأساسية والعلاجات والدعم للأطفال والشباب مبتوري الاطراف،
+                            ورعاية رفاههم وتمكينهم من الازدهار.
+                        </p>
+                        <div class="d-flex gap-10">
+                            <a href="#" class="main_btn">
+                                اتبرع الان
+                            </a>
+                            <a href="#" class="main_btn transparent gap-1">
+                                <img src="imgs/warning-2.svg" alt="warning" class="img_icon">
+                                <span>
+                                    +966 675 656
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ---------------------- ^^ about ^^ ---------------------- -->
+        <section class="s_space">
+            <div class="container">
+                <h5 class="about_sub_title mb-4">
+                    تعزيز صحة الأطفال والشباب مبتوري الاطراف وسعادتهم
+                </h5>
+                <h3 class="about_main_title mb-4">
+                    تحسين صحة مبتوري الاطراف من خلال تزويدهم بالاطراف الصناعية
+                </h3>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 col-12 mb-lg-0 mb-md-4 mb-4">
+                        <div class="about_card">
+                            <div class="about_circle_g">
+                                <img src="imgs/global.svg" alt="global" loading="lazy">
+                            </div>
+                            <h3 class="about_title">
+                                الرعاية الصحية الأولية
+                            </h3>
+                            <p class="about_desc">
+                                تقديم رعاية طبية حيوية مصممة خصيصًا لتلبية
+                                الاحتياجات الفريدة لمبتوري الاطراف، وضمان
+                                صحتهم ورفاههم بشكل عام.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-12 mb-lg-0 mb-md-4 mb-4">
+                        <div class="about_card">
+                            <div class="about_circle_g">
+                                <img src="imgs/global.svg" alt="global" loading="lazy">
+                            </div>
+                            <h3 class="about_title">
+                                الدعم المالي
+                            </h3>
+                            <p class="about_desc">
+                                التمويل لضمان حصول مبتوري الاطراف علي الاطراف الصناعية من أجل النمو والتطور الصحي.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-12 ">
+                        <div class="about_card">
+                            <div class="about_circle_g">
+                                <img src="imgs/global.svg" alt="global" loading="lazy">
+                            </div>
+                            <h3 class="about_title">
+                                الصحة النفسية
+                            </h3>
+                            <p class="about_desc">
+                                دعم الصحة النفسية من خلال خدمات استشارية شاملة لمبتوري الاطراف، ومصادر تعليمية.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ---------------------- ^^ partners ^^ ---------------------- -->
+        <section class="s_space">
+            <div class="container">
+                <h3 class="about_main_title partner_title  mb-4 mx-auto">
+                    تعزيز الوحدة والتعاون مع شركائنا المتفانين
+                </h3>
+                <div class="flex_between gap-30 flex-wrap">
+                    <img src="imgs/amity-logo3 1.svg" alt="partner" loading="lazy" class="partners_img">
+                    <img src="imgs/amity-logo4 (1) 1.svg" alt="partner" loading="lazy" class="partners_img">
+                    <img src="imgs/partner.svg" alt="partner" loading="lazy" class="partners_img">
+                    <img src="imgs/partner_2.svg" alt="partner" loading="lazy" class="partners_img">
+
+                </div>
+            </div>
+        </section>
+        <!-- ---------------------- ^^ program ^^ ---------------------- -->
+        <section class="s_space bg_main_light p_space">
+            <div class="container">
+                <h5 class="about_sub_title mb-4">
+                    برامج الرعاية الصحية لمبتوري الاطراف
+                </h5>
+                <h3 class="about_main_title mb-4">
+                    الأسباب والبرامج الحيوية في انتظار تبرعاتكم، ادعموا مبتوري الاطراف
+                </h3>
+                <div class="mb-lg-5 mb-sm-4">
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+                            <div class="program_card">
+                                <img src="imgs/Group6.svg" alt="program_img" loading="lazy" class="program_img">
+                                <div class="p-3">
+                                    <h3 class="program_title mb-3">
+                                        أرجل صناعية T-4040
+                                    </h3>
+                                    <div class="program_desc">
+                                        هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن
+                                        التركيز
+                                        على الشكل الخارجي للنص أو شكل توضع
+                                        الفقرات في الصفحة التي يقرأها.
+                                    </div>
+                                </div>
+                                <hr class="m-0 p-0" />
+                                <div class="p-3">
+                                    <div class="progress mb-3">
+                                        <div class="progress-bar" role="progressbar" style="width: 25%"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <div class="flex_between mb-3">
+                                        <h6 class="font-bolder ">
+                                            <span>
+                                                900
+                                            </span>
+                                            <span>
+                                                ر.س
+                                            </span>
+                                        </h6>
+                                        <h6 class="font-bolder ">
+                                            2
+                                        </h6>
+                                    </div>
+                                    <div class="flex_between mb-3">
+                                        <div class=" text-muted  ">
+                                            <span>
+                                                من
+                                            </span>
+                                            <span>
+                                                1900
+                                            </span>
+                                            <span>
+                                                ر.س
+                                            </span>
+                                        </div>
+                                        <div class="font-bolder text-muted  ">
+                                            مترعين
+                                        </div>
+
+
+                                    </div>
+                                    <div class="flex_between gap-20 ">
+
+
+                                        <button class="btn cart_btn" id="addToCartButton">
+                                            <img src="imgs/shopping-cart-main.svg" alt="cart" class="img_icon"
+                                                id="cartIcon">
+                                        </button>
+                                        <button class="main_btn grow-1">
+                                            تبرع الأن
+                                        </button>
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <div class="program_card">
+                                <img src="imgs/g5.svg" alt="program_img" loading="lazy" class="program_img">
+                                <div class="p-3">
+                                    <h3 class="program_title mb-3">
+                                        أرجل صناعية T-4040
+                                    </h3>
+                                    <div class="program_desc">
+                                        هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن
+                                        التركيز
+                                        على الشكل الخارجي للنص أو شكل توضع
+                                        الفقرات في الصفحة التي يقرأها.
+                                    </div>
+                                </div>
+                                <hr class="m-0 p-0" />
+                                <div class="p-3">
+                                    <div class="progress mb-3">
+                                        <div class="progress-bar" role="progressbar" style="width: 25%"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <div class="flex_betweenmb-3">
+                                        <h6 class="font-bolder ">
+                                            <span>
+                                                900
+                                            </span>
+                                            <span>
+                                                ر.س
+                                            </span>
+                                        </h6>
+                                        <h6 class="font-bolder ">
+                                            2
+                                        </h6>
+                                    </div>
+                                    <div class="flex_between mb-3">
+                                        <div class=" text-muted  ">
+                                            <span>
+                                                من
+                                            </span>
+                                            <span>
+                                                1900
+                                            </span>
+                                            <span>
+                                                ر.س
+                                            </span>
+                                        </div>
+                                        <div class="font-bolder text-muted  ">
+                                            مترعين
+                                        </div>
+
+
+                                    </div>
+                                    <div class="flex_between gap-20 ">
+
+
+                                        <button class="btn cart_btn" id="addToCartButton">
+                                            <img src="imgs/shopping-cart-main.svg" alt="cart" class="img_icon"
+                                                id="cartIcon">
+                                        </button>
+                                        <button class="main_btn grow-1">
+                                            تبرع الأن
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn main_btn xlg mx-auto">
+                    عرض جميع الحالات
+                </a>
+            </div>
+        </section>
+        <!-- ---------------------- ^^ features ^^ ---------------------- -->
+        <section class="s_space">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-6">
+                        <div class="d-flex align-items-center justify-content-center gap-3 flex-column mb-5">
+                            <img src="imgs/f1.svg" alt="feature" class="feature_img">
+                            <h2 class="num">
+                                30
+                            </h2>
+                            <p class="font-bolder f-16 text-center">توفير الأجهزة التعويضية المساندة</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <div class="d-flex align-items-center justify-content-center gap-3 flex-column mb-5">
+                            <img src="imgs/f2.svg" alt="feature" class="feature_img">
+                            <h2 class="num">
+                                600
+                            </h2>
+                            <p class="font-bolder f-16 text-center">تأمين مواد استهلاكية (السليكون - لاينر) </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <div class="d-flex align-items-center justify-content-center gap-3 flex-column mb-5">
+                            <img src="imgs/f3.svg" alt="feature" class="feature_img">
+                            <h2 class="num">
+                                800
+                            </h2>
+                            <p class="font-bolder f-16 text-center"> جلسات العلاج الطبيعي </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <div class="d-flex align-items-center justify-content-center gap-3 flex-column mb-5">
+                            <img src="imgs/f4.svg" alt="feature" class="feature_img">
+                            <h2 class="num">
+                                90
+                            </h2>
+                            <p class="font-bolder f-16 text-center">
+                                توفير الاطراف الصناعية
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ---------------------- ^^ discover ^^ ---------------------- -->
+        <section class=" contain_img_end start">
+            <img src="imgs/image_start.png" alt="coupon" class="img_end start">
+
+            <h5 class="about_sub_title ">
+                انضم إلينا في إحداث تأثير إيجابي
+            </h5>
+            <h3 class="about_main_title lg">
+                لماذا أخترتنا؟ اكتشف ما لا مثيل له تأثير اختيار جمعيتنا الخيرية
+            </h3>
+        </section>
+        <section class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="mb-4">
+                        <div class="card card-body faq-trigger flex_between flex-row res_title"
+                            data-bs-toggle="collapse" data-bs-target="#collapse1" role="button" aria-expanded="false"
+                            aria-controls="collapse1">
+
+                            <span class="text-gray-800 font-semibold text-lg">
+                                1- كيف يمكنني التبرع لدعم مبتوري الأطراف؟
+                            </span>
+                            <span class="collapse-icon text-blue-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                    class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="collapse" id="collapse1">
+                            <div class="collapse-content text-gray-600">
+                                <p class="faq-trigger-desc res_desc">
+                                    يمكنك دعم مبتوري الأطراف من خلال التبرع المباشر عبر المنصات المعتمدة، أو المشاركة في
+                                    حملات جمع التبرعات لشراء الأطراف الصناعية والأجهزة المساعدة.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="mb-4">
+                        <div class="card card-body faq-trigger flex_between flex-row res_title"
+                            data-bs-target="#collapse3" data-bs-toggle="collapse" role="button" aria-expanded="false"
+                            aria-controls="collapse3">
+                            <span class="text-gray-800 font-semibold text-lg">
+                                3- ما هي أنواع المساعدات التي تقدمونها؟
+                            </span>
+                            <span class="collapse-icon text-blue-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                    class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="collapse" id="collapse3">
+                            <div class="collapse-content text-gray-600">
+                                <p class="faq-trigger-desc res_desc">
+                                    نقدم الأطراف الصناعية، خدمات إعادة التأهيل الطبيعي، الدعم النفسي، وبرامج التدريب
+                                    المهني لمساعدتهم على الاندماج في سوق العمل.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="mb-4">
+                        <div class="card card-body faq-trigger flex_between flex-row res_title"
+                            data-bs-target="#collapse5" data-bs-toggle="collapse" role="button" aria-expanded="false"
+                            aria-controls="collapse5">
+                            <span class="text-gray-800 font-semibold text-lg">
+                                5- هل يمكنني التطوع بوقتي بدلاً من المال؟
+                            </span>
+                            <span class="collapse-icon text-blue-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                    class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="collapse" id="collapse5">
+                            <div class="collapse-content text-gray-600">
+                                <p class="faq-trigger-desc res_desc">
+                                    بالتأكيد! نحتاج دائماً لمتطوعين في مجالات التنظيم، التدريس، الدعم اللوجستي، وخدمات
+                                    الترجمة. يرجى ملء استمارة التطوع الخاصة بنا.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="mb-4">
+                        <div class="card card-body faq-trigger flex_between flex-row res_title"
+                            data-bs-target="#collapse2" data-bs-toggle="collapse" role="button" aria-expanded="false"
+                            aria-controls="collapse2">
+                            <span class="text-gray-800 font-semibold text-lg">
+                                2- ما هو الحد الأدنى للتبرع؟
+                            </span>
+                            <span class="collapse-icon text-blue-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                    class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="collapse" id="collapse2">
+                            <div class="collapse-content text-gray-600">
+                                <p class="faq-trigger-desc res_desc">
+                                    لا يوجد حد أدنى للتبرع. كل مساهمة، مهما كانت صغيرة، تحدث فرقاً كبيراً في حياة شخص
+                                    محتاج لطرف صناعي.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="mb-4">
+                        <div class="card card-body faq-trigger flex_between flex-row res_title"
+                            data-bs-target="#collapse4" data-bs-toggle="collapse" role="button" aria-expanded="false"
+                            aria-controls="collapse4">
+                            <span class="text-gray-800 font-semibold text-lg">
+                                4- كيف أضمن أن تبرعي يذهب للمستحقين؟
+                            </span>
+                            <span class="collapse-icon text-blue-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                    class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="collapse" id="collapse4">
+                            <div class="collapse-content text-gray-600">
+                                <p class="faq-trigger-desc res_desc">
+                                    يتم مراجعة جميع طلبات المساعدة من قبل لجنة متخصصة لضمان الشفافية وتوجيه الدعم لمن هم
+                                    في أمس الحاجة إليه، مع توفير تقارير دورية.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="mb-4">
+                        <div class="card card-body faq-trigger flex_between flex-row res_title"
+                            data-bs-target="#collapse6" data-bs-toggle="collapse" role="button" aria-expanded="false"
+                            aria-controls="collapse6">
+                            <span class="text-gray-800 font-semibold text-lg">
+                                6- أين يمكنني إيجاد مركزكم الرئيسي؟
+                            </span>
+                            <span class="collapse-icon text-blue-600">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                    class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="collapse" id="collapse6">
+                            <div class="collapse-content text-gray-600">
+                                <p class="faq-trigger-desc res_desc">
+                                    يقع مركزنا الرئيسي في قلب المدينة (شارع الأمل)، ويمكنك العثور على الفروع الأخرى في
+                                    صفحة "اتصل بنا" على موقعنا.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ---------------------- ^^ program ^^ ---------------------- -->
+        <section class="s_space bg_main_light p_space">
+            <div class="container">
+                <h5 class="about_sub_title mb-4">
+                    برامج الرعاية الصحية لمبتوري الاطراف
+                </h5>
+                <h3 class="about_main_title mb-4">
+                    الأسباب والبرامج الحيوية في انتظار تبرعاتكم، ادعموا مبتوري الاطراف
+                </h3>
+                <div class="mb-lg-5 mb-sm-4">
+                    <div class="row">
+                        <div class="col-md-4 mb-4">
+
+                            <div class="program_card md">
+                                <img src="imgs/g5.svg" alt="program_img" loading="lazy" class="program_img">
+                                <div class="p-3">
+                                    <h3 class="program_title mb-3 res_title">
+                                        تحويل المجتمعات من خلال المشاريع المستدامة
+                                    </h3>
+                                    <div class="program_desc mb-3 res_desc">
+                                        العمل معًا لتحقيق أهداف مشتركة يقوي الروابط بين المجتمع, المجتمعات المتماسكة
+                                        اجتماعياً مجهزة بشكل أفضل للتغلب على العقبات والتكيف
+                                    </div>
+
+
+                                    <div class="d-flex  align-items-center mb-3 gap-2">
+                                        <i class="fa-solid fa-calendar-days"></i>
+                                        <span>
+                                            21 أغسطس 2023
+                                        </span>
+                                    </div>
+
+
+
+                                    <button class="main_btn ">
+                                        قراءة أكثر
+                                    </button>
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="program_card md">
+                                <img src="imgs/g5.svg" alt="program_img" loading="lazy" class="program_img">
+                                <div class="p-3">
+                                    <h3 class="program_title mb-3 res_title">
+                                        تحويل المجتمعات من خلال المشاريع المستدامة
+                                    </h3>
+                                    <p class="program_desc mb-3 res_desc">
+                                        العمل معًا لتحقيق أهداف مشتركة يقوي الروابط بين المجتمع, المجتمعات المتماسكة
+                                        اجتماعياً مجهزة بشكل أفضل للتغلب على العقبات والتكيف
+
+                                    </p>
+
+                                    <div class="d-flex  align-items-center mb-3 gap-2">
+                                        <i class="fa-solid fa-calendar-days"></i>
+                                        <span>
+                                            21 أغسطس 2023
+                                        </span>
+
+
+
+
+                                    </div>
+
+
+
+                                    <button class="main_btn ">
+                                        قراءة أكثر
+                                    </button>
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="program_card md">
+                                <img src="imgs/g5.svg" alt="program_img" loading="lazy" class="program_img">
+                                <div class="p-3">
+                                    <h3 class="program_title mb-3 res_title">
+                                        تحويل المجتمعات من خلال المشاريع المستدامة
+                                    </h3>
+                                    <p class="program_desc mb-3 res_desc">
+                                        العمل معًا لتحقيق أهداف مشتركة يقوي الروابط بين المجتمع, المجتمعات المتماسكة
+                                        اجتماعياً مجهزة بشكل أفضل للتغلب على العقبات والتكيف
+                                    </p>
+                                    <div class="d-flex  align-items-center mb-3 gap-2">
+                                        <i class="fa-solid fa-calendar-days"></i>
+                                        <span>
+                                            21 أغسطس 2023
+                                        </span>
+                                    </div>
+                                    <button class="main_btn ">
+                                        قراءة أكثر
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn main_btn xlg mx-auto">
+                    عرض جميع الحالات
+                </a>
+            </div>
+
+        </section>
+
+        <!-- ---------------------- ^^ contact ^^ ---------------------- -->
+        <section class="s_space">
+            <h5 class="about_sub_title mb-3 ">
+                اتصل بنا
+            </h5>
+            <h3 class="about_main_title lg text-center mx-auto mb-5">
+                نحن نقدم المساعدة والمساعدة المخصصة لمبتوري الاطراف
+            </h3>
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+
+                    <div class="col-lg-5 col-12 ">
+                        <div class="p-4 p-lg-0 ">
+                            <div class="contact-card">
+                                <div class="icon-circle">
+                                    <img src="imgs/location (1).svg" alt="sms" />
+                                </div>
+                                <div>
+                                    <div class="contact-title mb-3 res_title">الرياض - حي المروج</div>
+                                    <p class="contact-description res_desc">
+                                        ابحث عن العناوين وساعات العمل والمزيد لكل من مواقعنا والشركات التابعة لنا.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="contact-card">
+                                <div class="icon-circle">
+                                    <img src="imgs/call-outgoing.svg" alt="sms" />
+                                </div>
+                                <div>
+                                    <div class="contact-title mb-3 res_title">0112777900 / 0552300321</div>
+                                    <p class="contact-description res_desc">
+                                        ابحث عن العناوين وساعات العمل والمزيد لكل من مواقعنا والشركات التابعة لنا.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="contact-card">
+                                <div class="icon-circle">
+                                    <img src="imgs/sms.svg" alt="sms" />
+                                </div>
+                                <div>
+                                    <div class="contact-title mb-3 res_title">info@a-ca.sa</div>
+                                    <p class="contact-description res_desc">
+                                        قبل أن تترك لنا خطأ أو تلقط ملاحظة قد تجد إجابة في قائمة الأسئلة الشائعة لدينا.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-12 ">
+                        <div class="form-column-content bg_main_light ">
+                            <h2 class="form-header-title res_title">هل لديك سؤال أو تعليق؟</h2>
+                            <p class="form-header-text res_desc">
+                                تواصل معنا من خلال النموذج أدناه ودعنا نبدأ محادثة حول إحداث فرق.
+                            </p>
+
+
+                            <form class="needs-validation " id="contact-form" novalidate>
+
+                                <div class="mb-4">
+                                    <label for="validationName" class="visually-hidden">الاسم</label>
+                                    <input type="text" class="form-control form-control-custom" id="validationName"
+                                        required placeholder="الاسم">
+                                    <div class="invalid-feedback">
+                                        الرجاء إدخال اسمك الكامل.
+                                    </div>
+                                </div>
+                                <div class="mb-4">
+                                    <label for="validationEmail" class="visually-hidden">البريد الإلكتروني</label>
+                                    <input type="email" class="form-control form-control-custom" id="validationEmail"
+                                        placeholder="البريد الإلكتروني" required>
+                                    <div class="invalid-feedback">
+                                        الرجاء إدخال بريد إلكتروني صالح.
+                                    </div>
+                                </div>
+                                <div class="mb-4">
+                                    <label for="validationMessage" class="visually-hidden">الرسالة</label>
+                                    <textarea class=" form-control form-control-custom" id="validationMessage" rows="4"
+                                        required placeholder="الرسالة"></textarea>
+                                    <div class="invalid-feedback">
+                                        الرجاء كتابة رسالتك.
+                                    </div>
+                                </div>
+                                <button class="main_btn mt-3 w-100" type="submit">إرسال</button>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- ---------------------- ^^ coupon ^^ ---------------------- -->
+        <section class=" bg_main_light p_space contain_img_end">
+            <img src="imgs/end.svg" alt="coupon" class="img_end">
+            <h5 class="about_sub_title ">
+                امنح هدية الصحة: ​​تبرع الي مبتوري الاطراف
+            </h5>
+            <h3 class="about_main_title lg">
+                تحويل الحياة: دعم الصحة النفسية لمبتوري الاطراف مع تبرعك
+            </h3>
+            <button class="btn main_btn xlg">
+                تبرع الان
+            </button>
+        </section>
+        <!-- ________________ // fixed_btn // ________________ -->
+        <a href="#donation-form" class="fab-button flex items-center bg-violet-600    ">
+            <span class="mr-3 text-xl font-semibold hidden sm:inline-block p-3">التبرع السريع</span>
+            <div class="px-2 py-auto bg_main h-100 d-flex align-items-center justify-content-center">
+                <i class="fa-solid fa-circle-plus text-3xl text-light p-2"></i>
+            </div>
+
+        </a>
+    </div>
+    <!-- ________________ // footer // ________________ -->
+    <footer>
+        <div class="container">
+            <div class="py-4">
+                <div class="row align-items-baseline justify-content-between ">
+                    <div class="col-lg-4 col-md-6">
+                        <img class=" mb-4" src="imgs/f_logo.svg" alt="">
+                        <p class="footer_desc mb-4">
+                            جمعية رسمية صحية متخصصة بمبتوري الأطراف وتقدم لهم خدمات تساعدهم على مواجهة التحديات
+                            والصعوبات وتساهم في تحسين جودة حياتهم، وتمكين قدراتهم الذاتية في خدمة أنفسهم وأسرهم دون
+                            الحاجة لمساعة الآخرين
+                        </p>
+                        <div class="d-flex gap-20 align-items-center justify-content-start mb-lg-0 mb-md-3 mb-4">
+
+                            <a href="#" class="socialLink">
+                                <img src="imgs/Pintrest.svg" alt="" class="img_icon">
+                            </a>
+                            <a href="#" class=" socialLink">
+                                <img src="imgs/whatsapp.svg" alt="" class="img_icon">
+                            </a>
+                            <a href="#" class="socialLink">
+                                <img src="imgs/facebook.svg" alt="" class="img_icon">
+                            </a>
+                            <a href="#" class="socialLink">
+                                <img src="imgs/w.svg" alt="" class="img_icon">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2  col-4">
+                        <ul class="d-flex align-items-start gap-20 flex-column mb-lg-0 mb-md-3 mb-4">
+                            <li>
+                                <h3 class="footer_link link_sub_title">المميزات</h3>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer_link">عن بتور</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer_link">البرامج</a>
+
+                            </li>
+                            <li>
+                                <a href="#" class="footer_link"> العناية بالاطراف الصناعية</a>
+
+                            </li>
+                            <li>
+                                <a href="#" class="footer_link">المركز الاعلامي </a>
+
+                            </li>
+
+
+
+                        </ul>
+                    </div>
+                    <div class="col-lg-2  col-6">
+                        <ul class="d-flex align-items-start gap-20 flex-column mb-lg-0 mb-md-3 mb-4">
+
+                            <li>
+                                <h3 class="footer_link link_sub_title">عن الشركة</h3>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer_link"> الاسئلة الشائعة</a>
+
+                            </li>
+                            <li>
+                                <a href="#" class="footer_link">من نحن</a>
+
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer_link">تواصل معنا </a>
+
+                            </li>
+
+
+                        </ul>
+                    </div>
+                    <div class="col-lg-2  col-6">
+                        <ul class="d-flex align-items-start gap-20 flex-column ">
+                            <li>
+                                <h3 class="footer_link link_sub_title"> تواصل معنا</h3>
+                            </li>
+
+                            <li>
+                                <div class="s_tile mb-2">
+                                    العنوان
+                                </div>
+                                <a href="#" class="footer_link"> الرياض - حي المروج</a>
+
+                            </li>
+                            <li>
+                                <div class="s_tile mb-2">
+                                    البريد الالكتروني
+                                </div>
+                                <a href="mailto:joebloggs@gmail.com" class="footer_link"> APP@Gmail.com </a>
+
+                            </li>
+                            <li>
+                                <div class="s_tile mb-2">
+                                    للاستشارات
+                                </div>
+                                <a href="tel:+1234567890" class="footer_link">
+                                    (+966) 8896-2220
+                                </a>
+
+
+                            </li>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr />
+            <div
+                class="py-4 text-white d-flex flex-wrap gap-3 align-items-center  justify-content-md-between justify-content-center">
+                <div>
+                    © 2024 APP. جميع الحقوق محفوظة
+                </div>
+                <div class="d-flex align-items-center gap-10">
+                    <a href="#" class="text-white">
+                        سياسة الخصوصية
+                    </a>
+                    <a href="#" class="text-white">
+                        الشروط والاحكام
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- ---------------------- ^^ loader ^^ ---------------------- -->
+    <div class="loader">
+        <img src="imgs/f_logo.svg" alt="" class="logoWhite  animate__animated animate__jackInTheBox">
+    </div>
+    <!-- _______________ // end_Page // _______________ -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/wow.min.js"></script>
+    <script src="js/fancyApp.js"></script>
+    <script src="js/script.js"></script>
+    <!-- // JavaScript and Scripts // -->
+    <script>
+        function showCustomMessage(message, type) {
+            let msgBox = document.getElementById('custom-message-box');
+            if (!msgBox) {
+                msgBox = document.createElement('div');
+                msgBox.id = 'custom-message-box';
+                document.body.appendChild(msgBox);
+            }
+
+            // تحديث التنسيق والرسالة
+            msgBox.className = type;
+            msgBox.textContent = message;
+            msgBox.style.opacity = 1;
+
+            setTimeout(() => {
+                msgBox.style.opacity = 0;
+            }, 3000);
+        }
+        (function () {
+            'use strict'
+            const form = document.getElementById('contact-form')
+
+            if (form) {
+                form.addEventListener('submit', function (event) {
+                    if (!form.checkValidity()) {
+                        event.preventDefault()
+                        event.stopPropagation()
+                        showCustomMessage('الرجاء تعبئة جميع الحقول المطلوبة بشكل صحيح.', 'error');
+                    } else {
+                        event.preventDefault();
+                        showCustomMessage('تم إرسال النموذج بنجاح! شكراً لتواصلك.', 'success');
+                        form.reset();
+                        form.classList.remove('was-validated');
+                    }
+                    form.classList.add('was-validated')
+                }, false)
+            }
+        })();
+    </script>
+
+</body>
+
+</html>
