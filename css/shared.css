@@ -315,7 +315,8 @@ header .mainTitle {
 .navbar a.active,
 .navbar .font-bolder.router-link-active,
 .navbar .font-bolder:hover,
-.navbar .font-bolder.active {
+.navbar .font-bolder.active,
+.navbar li.active a {
   color: #403279;
   position: relative;
   font-weight: bolder;
@@ -892,4 +893,3 @@ fieldset:disabled .btn {
     padding: 0 10px;
   }
 }
-
