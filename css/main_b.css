@@ -201,19 +201,17 @@
   object-position: bottom;
 }
 .preview {
-    height: 750px;
-  }
+  height: 750px;
+}
 @media (min-width: 768px) {
   .content {
     min-height: 300px;
   }
- 
 }
 @media (max-width: 768px) {
-
-.preview {
-  height: 350px;
-}
+  .preview {
+    height: 350px;
+  }
 }
 .content_p {
   font-weight: 400;
